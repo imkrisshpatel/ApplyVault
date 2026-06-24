@@ -1,0 +1,15 @@
+# Credentials & Keys
+.env
+credentials.json
+token.json
+
+# Python Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# Local Resume Compilation Outputs
+*.pdf
+*.log
+*.aux
+*.out
