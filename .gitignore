@@ -1,15 +1,18 @@
-# Credentials & Keys
+# Private API Keys & Environment Variables
 .env
-credentials.json
-token.json
 
-# Python Virtual Environment
+# Personal Google Auth Tokens and App Credentials
+token.json
+credentials.json
+
+# Local Python Virtual Environment
 venv/
 __pycache__/
 *.pyc
 
-# Local Resume Compilation Outputs
-*.pdf
-*.log
+# LaTeX Build Artifacts (Just in case any linger)
 *.aux
+*.log
 *.out
+*.pdf
+*.tex
