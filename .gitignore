@@ -1,6 +1,9 @@
 # Private API Keys & Environment Variables
 .env
 
+# JD Response Cache
+cache/
+
 # Personal Google Auth Tokens and App Credentials
 token.json
 credentials.json
@@ -9,6 +12,9 @@ credentials.json
 venv/
 __pycache__/
 *.pyc
+
+# Claude Code session data
+.claude/
 
 # LaTeX Build Artifacts (Just in case any linger)
 *.aux
